@@ -1,0 +1,13 @@
+.container{
+  background-color: yellow;
+  width: 80%;
+  text-align: center;
+}
+.imheading{
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+}
+.para{
+  background-color: gainsboro;
+}

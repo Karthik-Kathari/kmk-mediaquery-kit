@@ -1,0 +1,79 @@
+/* xs (360px) */
+@media (max-width: 360px) {
+.container {
+    background-color: red;
+  }
+  .imheading {
+    /* responsive styles here */
+  }
+  .para {
+    /* responsive styles here */
+  }
+}
+
+/* sm (480px) */
+@media (max-width: 480px) {
+.container {
+    /* responsive styles here */
+  }
+  .imheading {
+    /* responsive styles here */
+  }
+  .para {
+    /* responsive styles here */
+  }
+}
+
+/* md (768px) */
+@media (max-width: 768px) {
+.container {
+    /* responsive styles here */
+  }
+  .imheading {
+    /* responsive styles here */
+  }
+  .para {
+    /* responsive styles here */
+  }
+}
+
+/* lg (1024px) */
+@media (max-width: 1024px) {
+.container {
+    /* responsive styles here */
+  }
+  .imheading {
+    /* responsive styles here */
+  }
+  .para {
+    /* responsive styles here */
+  }
+}
+
+/* xl (1280px) */
+@media (max-width: 1280px) {
+.container {
+    /* responsive styles here */
+  }
+  .imheading {
+    /* responsive styles here */
+  }
+  .para {
+    /* responsive styles here */
+  }
+}
+
+/* xxl (1440px) */
+@media (max-width: 1440px) {
+
+  .container {
+    /* responsive styles here */
+  }
+  .imheading {
+    /* responsive styles here */
+  }
+  .para {
+    /* responsive styles here */
+  }
+}
+

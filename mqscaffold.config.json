@@ -1,0 +1,13 @@
+{
+  "breakpoints": {
+    "xs": "360px",
+    "sm": "480px",
+    "md": "768px",
+    "lg": "1024px",
+    "xl": "1280px",
+    "xxl": "1440px"
+  },
+  "cssPath": "./styles/styles.css",
+  "htmlPaths": ["./index.html", "./pages/**/*.html"],
+  "output": "./styles/media-queries.css"
+}
