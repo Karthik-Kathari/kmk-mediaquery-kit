@@ -1,6 +1,6 @@
 {
   "name": "kmk-mediaquery-kit",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A simple CLI tool to automatically scaffold responsive media queries for your plain HTML and CSS projects.",
   "main": "index.js",
   "bin": {
