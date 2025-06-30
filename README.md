@@ -8,13 +8,15 @@ A simple CLI tool to automatically scaffold responsive media queries for your pl
 
 **`kmk-mq-kit`** helps streamline responsive design by scanning your HTML and CSS files and generating media query scaffolding for your classes across custom breakpoints.
 
-It’s ideal for developers working with **static HTML and CSS** who want to automate media query creation **without using utility-first frameworks like Tailwind CSS** .
+It’s ideal for developers working with **static HTML and CSS** who want to automate media query creation **without using utility-first frameworks**.
 
 > Make sure all your CSS class names exactly match the class names used in your HTML.
-
+>
 > Once those class names are styled in your main CSS file, `kmk-mq-kit` will automatically generate empty media query blocks for them.
-
+>
 > This way, you don’t need to write the class names again — just fill in the responsive styles inside the generated file.
+>
+> Ultimately, you don’t need to worry about mismatching class names or repeating them inside media queries — `kmk-mq-kit` automatically tracks the class names from your CSS and reflects them correctly in the generated media query blocks.
 
 ---
 
@@ -41,8 +43,8 @@ It’s ideal for developers working with **static HTML and CSS** who want to aut
 - To avoid issues with script execution policies in PowerShell, it’s best to run the installation and CLI commands in **Git Bash** or **Command Prompt (cmd)** .
 - Install the CLI globally using npm:
 
-```
-npm install -g kmk-mq-kit
+```apache
+npm install -g kmk-mediaquery-kit
 ```
 
 ---
@@ -53,13 +55,13 @@ npm install -g kmk-mq-kit
 - Run the tool from your project root directory:
 
 ```
-kmk-mq-kit
+     kmk-mq-kit
 ```
 
 - To enable watch mode (auto-update on file changes):
 
 ```
-kmk-mq-kit --watch
+     kmk-mq-kit --watch
 ```
 
 ---
@@ -123,7 +125,7 @@ Create a file named **`mqscaffold.config.json`** in your project root with your 
 
 To work with the default settings in `mqscaffold.config.json`, organize your files like this:
 
-```
+```apache
 your-project/               ← main folder of your project
 ├──index.html               ← Main index.html file
 ├──styles/                  ← Folder Named "styles"
@@ -136,7 +138,7 @@ your-project/               ← main folder of your project
 
 🧾 Your `index.html` should look like this:
 
-```
+```apache
 <!DOCTYPE html>
 <html lang="en">
 <head>
